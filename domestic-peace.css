@@ -1,12 +1,12 @@
 body {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Roboto Slab', sans-serif!important;
   margin: 0;
   background-color: black;
 }
 
 h1 {
-  font-family: 'Quicksand', sans-serif;
-  margin-top: : 2%;
+  font-family: 'Quicksand', sans-serif!important;
+  padding-top:5%;
   margin-bottom: 0;
 }
 
@@ -15,12 +15,16 @@ p {
 }
 
 a {
-  color: lightgray;
-  text-decoration: none;
+  color: lightgray!important;
+  text-decoration: none!important;
 }
 
 a:hover {
-  color: slategray;
+  color: slategray!important;
+}
+
+img {
+  height: 100vh;
 }
 /*#splash {
   height: 100vh;
@@ -37,7 +41,6 @@ a:hover {
 #main {
   background-color: black;
   color: white;
-  box-shadow: 0 0 60px black;
   margin: 0;
   height: 100vh;
 }
